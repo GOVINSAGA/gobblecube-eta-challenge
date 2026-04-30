@@ -1,4 +1,5 @@
 __pycache__/
+.pytest_cache/
 *.py[cod]
 *.egg-info/
 .venv/
@@ -9,6 +10,7 @@ data/raw/
 data/train.parquet
 data/dev.parquet
 data/sample_1M.parquet
+data/preds.csv
 
 # Docker cache
 .docker_cache/

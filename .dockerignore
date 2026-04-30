@@ -1,0 +1,15 @@
+.git/
+.venv/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# Local training data is mounted for validation, not baked into the image.
+data/raw/
+data/train.parquet
+data/dev.parquet
+data/sample_1M.parquet
+data/preds.csv
+
+# Local Docker/cache noise.
+.docker_cache/
